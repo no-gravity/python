@@ -1,5 +1,4 @@
-# python
-Python Goodies
+# Python Goodies 🐍
 
 ## Profile a script to get a list of all function calls sorted by cumulative time:
 ```
