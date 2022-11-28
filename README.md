@@ -2,12 +2,12 @@
 
 ## Profile a script to get a list of all function calls sorted by cumulative time:
 ```
-python3 -m cProfile -s cumtime ./thescript.py
+python3 -B -m cProfile -s cumtime ./thescript.py
 ```
 
 ## Debug a script:
 ```
-python3 -m pdb ./thescript.py
+python3 -B -m pdb ./thescript.py
 ```
 This will throw you into the debugger right from the start.
 `c<enter>` will run the script.
