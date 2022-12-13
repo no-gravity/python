@@ -17,3 +17,10 @@ If it encounters an error, you will be back in the debugger and be able to exami
 ```
 python3 -B -m pdb -c 'b some_module.py:123' ./thescript.py
 ```
+
+## Debug from within a script:
+pudb is a nicer experience than pdb.
+Put this where you want the debugger to kick in:
+```
+import pudb; pudb.set_trace();
+```
